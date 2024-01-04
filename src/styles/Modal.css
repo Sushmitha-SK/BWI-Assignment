@@ -1,0 +1,122 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    outline: none;
+    width: 700px;
+    max-width: 90%;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd transparent;
+}
+
+.modal-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.modal-content form .MuiFormControl-root {
+    border-radius: 12px;
+}
+
+.modal-content button {
+    margin-top: 20px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.cart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.empty-cart-message {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.empty-cart-message img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-item img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.cart-item Button {
+    margin-top: auto;
+}
+
+
+.item-details {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+.cart-summary {
+    margin-top: 16px;
+    text-align: right;
+}
