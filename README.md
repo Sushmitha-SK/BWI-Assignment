@@ -4,7 +4,7 @@ CartEase is an E-Commerce web application built using React for the frontend, in
 
 ## Live Demo
 
-Check out the live demo of CartEase at [https://bwi-assignment-ecommerce-app.vercel.app/]
+Check out the live demo of CartEase at: https://bwi-assignment-ecommerce-app.vercel.app/
 
 ## User Login
 
